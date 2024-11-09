@@ -1,6 +1,5 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import { App } from "./App";
 import Chat from "components/Chat";
 import { Main } from "components/Main";
 
