@@ -1,4 +1,4 @@
-import React, { ChangeEvent, MouseEvent, MouseEventHandler, useState } from "react";
+import React, { ChangeEvent, MouseEventHandler, useState } from "react";
 import styles from "../styles/Main.module.css";
 import { Link } from "react-router-dom";
 
