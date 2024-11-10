@@ -9,7 +9,7 @@ import { Messages } from "./Messages";
 
 export type messageServerType = { user: { name: string }; message: string };
 
-const socket = io("http://localhost:5000/");
+const socket = io("https://online-chat-tstd.onrender.com");
 const Chat = () => {
   const { search } = useLocation();
   const navigate = useNavigate();
